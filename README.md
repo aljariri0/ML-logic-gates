@@ -22,5 +22,7 @@ $$\sigma(x) = \frac{1}{1 + e^{-x}}$$
 To calculate how a specific weight ($w$) affects the cost ($J$), I bump up (gently push) the weight by small value ($h = 1e^{-3}$) and measure the change:
 $$\frac{\partial J}{\partial w} \approx \frac{J(w + h) - J(w)}{h}$$, Weights are then updated using standard Gradient Descent.
 
+![Cost Function](cost_function.png)
+
 ## How to run the code:
 You only need a C compiler (`gcc`) installed on your OS.
